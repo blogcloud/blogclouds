@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>华云-弹性云计算</title>
+<style type="text/css">
+<!--
+body {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #4C4C4C;
+    font-family: "STHeiti","Microsoft YaHei",微软雅黑,Tahoma,华文黑体,宋体;
+    font-size: 12px;
+}
+
+img {
+    border: 0 none;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.wrap {
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+.MainContent {
+    height: auto;
+    padding-top: 17px;
+    width: auto;
+}
+.MainContent #losetest {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    float: left;
+    height: 92px;
+    padding: 200px 162px;
+}
+.lose_left {
+    float: left;
+    width: 190px;
+}
+.lose_right {
+    float: right;
+}
+.lose_right p {
+    padding-bottom: 15px;
+}
+span{
+ color:red;
+ font-family:Georgia;
+ font-size:30px;
+ font-weight:bold;
+ padding-left:10px;
+}
+-->
+</style>
+<script type="text/javascript"> 
+var mm=3;
+function show_date_time(){ 
+	if(mm>0){
+		window.setTimeout("show_date_time()", 1000);
+		mm=mm-1;
+	}else{
+		window.location='/Index/index.html';
+	}
+	document.getElementById("span_dt_dt").innerHTML=mm; 
+}
+show_date_time();
+</script>
+</head>
+<body>
+<div class="wrap" id="home">  
+  <div class="MainContent" style="background:none;">
+    <div class="container">
+      <div id="losetest">
+         <div class="lose_left"><img src="https://www.chinac.com/static/images/404.jpg" /></div>
+         <div class="lose_right">
+         <p><img src="https://www.chinac.com/static/images/404_1.jpg" /></p>
+         <p><a href="http://www.chinac.com/Index/index.html"><img src="https://www.chinac.com/static/images/404_2.jpg" /></a></p>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
